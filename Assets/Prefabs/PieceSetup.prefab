@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2216148998484462105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504123547427483878}
+  - component: {fileID: 1384910447343411466}
+  m_Layer: 0
+  m_Name: PieceSetup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &504123547427483878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2216148998484462105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1384910447343411466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2216148998484462105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca73eed84448475ea34a1b8c8b541b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _kingW: {fileID: 4983293861547012232, guid: 29e103079759947e2be76c078110cd02, type: 3}
+  _queenW: {fileID: 7215570916908969572, guid: 6b9c9d0c33c714971bc54982840a41a0, type: 3}
+  _rookW: {fileID: 5028851724454438820, guid: 97cdadce392984190a3cc15cc708dbe0, type: 3}
+  _knightW: {fileID: 4083817144284719267, guid: c2a810a18cc1146d3852ddd2683d1a6c, type: 3}
+  _bishopW: {fileID: 5060632047980988020, guid: eeec8e322b7e74cc1b5300288efedb03, type: 3}
+  _pawnW: {fileID: 2122004375351727172, guid: 2972e3aacab634817bb46c0fa1429cf4, type: 3}
+  _kingB: {fileID: 39487429557261885, guid: ba374d19b349848a38186eba258901da, type: 3}
+  _queenB: {fileID: 6467888946997026342, guid: 43ed6006524974977be69040d614566c, type: 3}
+  _rookB: {fileID: 3477638484638233236, guid: 340d7867229c24212a804703a0649c04, type: 3}
+  _knightB: {fileID: 1609377947315720103, guid: 0e63efb9a333b4abc930c22c7b66358a, type: 3}
+  _bishopB: {fileID: 1026643029375926227, guid: 9d504e10df07b4eb7a41ca296ce8ce3a, type: 3}
+  _pawnB: {fileID: 5670703669039906583, guid: 6c59a6fececcc4f89a57121e81b4d555, type: 3}
+  _board: {fileID: 6867250874986147368, guid: d33b8ae0b269046a58d5467048feb8f7, type: 3}
